@@ -1,7 +1,17 @@
 ﻿namespace Ordena
 {
+
+    /// <summary>
+    /// Clase principal, que contendra la aplicacion
+    /// msm - 17-10-23
+    /// </summary>
     class Program
     {
+        /// <summary>
+        /// Metodo principal,donde se espeicifica el orden de los metodos
+        /// msm - 17-10-23
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             float n1;
@@ -15,6 +25,7 @@
             Console.WriteLine("Tercer numero");
             n3 = Single.Parse(Console.ReadLine());
 
+            //Con el if hacemos que los numeros salgan de mayor a menor, en base a condiciones,tenemos varios if para cada numero 
             if (n1 < n2 && n1 < n3)
             {
                 if (n2 < n3) 
