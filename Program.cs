@@ -15,7 +15,75 @@
             Console.WriteLine("Tercer numero");
             n3 = Single.Parse(Console.ReadLine());
 
-            if 
+            if (n1 < n2 && n1 < n3)
+            {
+                if (n2 < n3) 
+                {
+                    Console.WriteLine("********************");
+                    Console.WriteLine(n3);
+                    Console.WriteLine(n2);
+                    Console.WriteLine(n1);
+                    Console.WriteLine("********************");
+
+                }
+                else
+                {
+                    Console.WriteLine("********************");
+                    Console.WriteLine(n2);
+                    Console.WriteLine(n3);
+                    Console.WriteLine(n1);
+                    Console.WriteLine("********************");
+
+                }
+
+            }
+            
+
+            if (n2 < n3 && n2 < n1)
+            {
+                if (n1 < n3)
+                {
+                    Console.WriteLine("********************");
+                    Console.WriteLine(n3);
+                    Console.WriteLine(n1);
+                    Console.WriteLine(n2);
+                    Console.WriteLine("********************");
+
+                }
+                else
+                {
+                    Console.WriteLine("********************");
+                    Console.WriteLine(n1);
+                    Console.WriteLine(n3);
+                    Console.WriteLine(n2);
+                    Console.WriteLine("********************");
+
+                }
+
+            }
+
+            if (n3 < n1 && n3 < n2)
+            {
+                if (n2 < n1)
+                {
+                    Console.WriteLine("********************");
+                    Console.WriteLine(n1);
+                    Console.WriteLine(n2);
+                    Console.WriteLine(n3);
+                    Console.WriteLine("********************");
+
+                }
+                else
+                {
+                    Console.WriteLine("********************");
+                    Console.WriteLine(n2);
+                    Console.WriteLine(n1);
+                    Console.WriteLine(n3);
+                    Console.WriteLine("********************");
+
+                }
+
+            }
         }
     }
 }
